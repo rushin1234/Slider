@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.img{
+    max-width: 100%;
+    max-height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+.box{
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.prev, .next{
+    height: 100%;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+.prev:hover, .next:hover{
+    border: 2px solid white;
+    border-radius: 15px;
+}
